@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 
-		<title>GoodWorx Homework Assignment 1</title>
+		<title>GoodWorx Homework Assignment 1 - Contact</title>
 
 	<!-- Linking CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/connectme2.css">
 
 </head>
 <body>
@@ -32,37 +33,50 @@
 	   </p>
 	</header>
 
-	<section id="main-bio">
-		<h2>Contact</h2>
-		
-		<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdVAAAAJGM0NDk0ZWMyLTg4NGItNDk4Ny05ZWUxLTYxMzk2MGQ2ZDE2Yg.jpg" alt="Alicia Good" id="bio-image">
-		
-		<p>Software professional with extensive pre and post-sales experience working with customers to evangelize digital marketing product solutions that drive traffic, create engaging experiences, and convert customers.
-		</p>
-		<p>Knowledgeable in multi-vendor SaaS solutions, content management, A/B testing, HTML/CSS, Javascript, jQuery, web protocols, as well as SQL and BI/ETL tools for Big Data and data warehouse. 
-		</p>
+	<section id="main-section">
+		<section id="main-bio">
+			<h2>Contact</h2>
+			<hr>
+			
+			<form action="/action_page.php">
+				<fieldset id="contactinfo">
+				<!--	<legend>Enter Contact information:</legend> -->
+					Name:<br>
+					<input type="text" name="fullname" value="John Smith" size="48">
+					<br>
+					Email:<br>
+					<input type="email" name="email1" value="example@gmail.com" size="48">
+					<br>
+					Message:<br>
+					<textarea name="msg" cols="45" rows="5"></textarea>
+					<br><br>
+					<input type="submit" value="Submit" button-color="4aaaa5">
+				</fieldset>
+			</form>
 
-	</section>
+		</section>
 	
-	<section id="contact-info">
-		<h3>Connect with Me</h3>
-			<ul>
-				<li>
-					<a>
-						<img src="assets/images/github.png" width="48" height="48">
-					</a>
-				</li>
-				<li>
-					<a>
-						<img src="assets/images/linkedin.png" width="48" height="58">
-					</a>
-				</li>
-				<li>
-					<a> 
-						<img src="assets/images/stackoverflow.png" width="48" height="63">
-					</a>
-				</li>
-			</ul>
+		<section id="connectwithme">
+			<h3>Connect with Me</h3>
+			<hr>
+				<ul id="letsgetsocial">
+					<li>
+						<a>
+							<img src="assets/images/github.png" width="48" height="48">
+						</a>
+					</li>
+					<li>
+						<a>
+							<img src="assets/images/linkedin.png" width="48" height="58">
+						</a>
+					</li>
+					<li>
+						<a> 
+							<img src="assets/images/stackoverflow.png" width="48" height="63">
+						</a>
+					</li>
+				</ul>
+		</section>
 	</section>
 
 	<section id="footer-info">

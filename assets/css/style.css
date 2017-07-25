@@ -9,49 +9,16 @@ body {
 	line-height: 150%;
 }
 
-/* h1 {
-	color: #efeee7;
-	background-color: #4aaaa5;
-	margin: 0;
-	margin-left: 50;
-	margin-top: 0;
-	text-align: center;
-	padding-top: 0px;
-	padding-left: 75px; 
-	padding-right: 100px; 
-	font-size: 28px;
-	width: 65px; 
-	height: 75px; 
-} */
+h1 {
 
-/* h2 {
-	font-size: 24px;
-	color: #4aaaa5;
-	margin-left: 2px;
-	margin-right: 2px;
-	border-style: solid;
-	border-bottom-color: #4aaaa5;
-	border-top-width: 0;
-	border-left-width: 0;
-	border-right-width: 0;
-	border-bottom-width: 2px; 
-} */
+} 
 
-/*h3 {
-	color: #4aaaa5;
-	margin-left: 30px;
-	margin-right: 30px;
-	border-style: solid;
-	border-bottom-color: #4aaaa5;
-	border-top-width: 0;
-	border-left-width: 0;
-	border-right-width: 0;
-	border-bottom-width: 2px; */
-}
+h2 {
 
-h5 {
-	text-align: center;
-	color: #3feee7;
+} 
+
+h3 {
+
 }
 
 a {
@@ -73,89 +40,120 @@ header {
 }
 
 #head0 {
-	position: relative;
-	left: 48px;
+	float: left;
 	text-align: center;
-/*	margin-top; 40px; */
 	background-color: #4aaaa5;
 	width: 150px;
 	height: 35px;
-	padding: 20px;
+	padding: 20px; 
 	font-size: 28px;
  	margin-top: 0;  
 	color: #ffffff;
-	vertical-align: center;
 }
 #head1 {
-/*	position: relative;
-	bottom: 40px; */
 	display: inline;
 	text-align: right;
 	color: #777777;
-/*	border-bottom-color: #cccccc;
-	border-bottom-width: 40px; */
-/*	margin-bottom: 100px; */
+	padding: 20px;
+
 }
 
 href {
+	clear: both;
 	color: #777777;
 }
 
-footer {
-	float: none;
-	background-color: #666666;
-}
-
 li {
-	display: inline;
+	display: inline; 
 	text-align: center;
 }
 
 .container {
+	clear: both;
+	overflow: auto;
+	box-sizing: border-box;
 	width: 960px;
-	margin: 0 auto;
-	margin-top: 20px;
+	margin: 0 auto 0 auto;
+
 }
 
-#myname {
-	background-color: #4aaaa5;
+#main-section {
+	clear: both;
+	overflow: auto;
+	box-sizing: border-box;
+	width: 650px;
+	margin: 0 auto 0 auto; 
+}
+
+#main-bio,
+#bio-image {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
 	float: left;
-	margin-left: 10px;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-bottom: 18px;
-	padding-top: 10px;
-	padding-left: 5px;
 }
 
-#aboutme {
-	font-size: 24px;
-	color: #4aaaa5;
-	margin-left: 2px;
-	margin-right: 2px;
-	border-style: solid;
-	border-bottom-color: #4aaaa5;
-	border-top-width: 0;
-	border-left-width: 0;
-	border-right-width: 0;
-	border-bottom-width: 2px; 
+#main-bio {
+	float: left;
+	background-color: #ffffff;
+    width: 65%;
+    padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px; 
+	margin-bottom: 20px; 
+}
+#bio-image {
+	float: left;
+	margin-right: 20px; 
+	width: 200px; 
 }
 
-#connectme {
+#contactinfo {
+	float: left;
+	background-color: #ffffff;
+    width: 65%;
+    padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 30px; 
+	margin-bottom: 20px; 
+	border-width: 0px;
+	border: none;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	width: 100px;
+	height: 35px;
 	font-size: 18px;
+}
+/*
+#connectwithme {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	position: relative; 
+	bottom: 458px; 
+	right: -440px;
+	background-color: #ffffff;
+	width: 30%;
 	color: #4aaaa5;
-	margin-left: 2px;
-	margin-right: 2px;
-	border-style: solid;
-	border-bottom-color: #4aaaa5;
-	border-top-width: 0;
-	border-left-width: 0;
-	border-right-width: 0;
-	border-bottom-width: 2px; 
+	padding: 5px; 
+	text-align: center;
+	font-size: 18px;
 }
 
+#letsgetsocial {
+	display: inline; 
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+*/
 #footer-info {
-	float: none;
+	overflow: auto;
+	clear: both;
 	background-color: #666666;
 	text-align: center;
 	width: 100%;
@@ -169,42 +167,5 @@ li {
 	border-bottom-width: 0;
 	color: #efeee7;
 	font-size: 10px;
-	overflow: auto;
-	clear: both;
-
 	
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-	float: left;
-}
-
-#main-bio {
-
-	background-color: #ffffff;
-    width: 450px;
-
-    padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
-    margin: 50px;
-}
-
-#contact-info {
-	font-size: 24px;
-	color: #4aaaa5;
-	margin-top; 20px;
-	background-color: #ffffff;
-	width: 250px;
-	padding-top: 20px;
-	text-align: center;
-	font-size: 18px;
-	margin-top: 49px;
-}
-
-#bio-image {
-	margin-right: 20px;
-	width: 200px;
 }
