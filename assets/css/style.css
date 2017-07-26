@@ -128,29 +128,105 @@ input[type=submit] {
 	height: 35px;
 	font-size: 18px;
 }
-/*
-#connectwithme {
+
+.r1-column1 {
 	overflow: auto;
 	clear: both;
 	box-sizing: border-box;
-	position: relative; 
-	bottom: 458px; 
-	right: -440px;
-	background-color: #ffffff;
-	width: 30%;
-	color: #4aaaa5;
-	padding: 5px; 
-	text-align: center;
-	font-size: 18px;
+	float: left;
+	width: 48%;
+	margin-right: 10px;
 }
 
-#letsgetsocial {
-	display: inline; 
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
+.r1-column2 {
+	float: left;
+	width: 48%;
+	margin: 0;
 }
-*/
+
+.r2-column1 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	float: left;
+	width: 48%;
+	margin-right: 10px;
+}
+
+.r2-column2 {
+	float: left;
+	width: 48%;
+	margin: 0;
+}
+
+
+#this-block-image1 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#this-block-blurb1 {
+	position: absolute;
+	top: 117px; */
+}
+
+#this-block-image2 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#this-block-blurb2 {
+	position: absolute;
+	top: 117px; */
+}
+
+#this-block-image3 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#this-block-blurb3 {
+	position: absolute;
+	top: 117px; */
+}
+
+#this-block-image4 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#this-block-blurb4 {
+	position: absolute;
+	top: 117px; */
+}
+
+#this-block-image5 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#this-block-blurb5 {
+	position: absolute;
+	top: 117px; */
+}
+
+.this-blurb-inner {
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	width: 164px;
+	height: 40px;
+}
 #footer-info {
 	overflow: auto;
 	clear: both;
