@@ -3,8 +3,9 @@
 	clear: both;
 	box-sizing: border-box;
 	position: relative; 
-	bottom: 730px; 
-	right: -440px;
+	bottom: 640px; 
+	right: -465px;
+	margin-left: 0px;
 	background-color: #ffffff;
 	width: 30%;
 	color: #4aaaa5;

@@ -104,19 +104,20 @@ li {
 	float: left;
 }
 
-#main-bio {
+#main-content {
 	float: left;
 	background-color: #ffffff;
     width: 65%;
     padding-top: 20px;
-	padding-left: 30px;
-	padding-right: 30px; 
-	margin-bottom: 20px; 
+	padding-left: 20px;
+	padding-right: 20px; 
+	margin-bottom: 20px;
+	margin-left: 0px;
 }
 #bio-image {
 	float: left;
 	margin-right: 20px; 
-	width: 200px; 
+	width: 150px; 
 }
 
 .hover-rotate { margin-left: 30px; }
@@ -155,19 +156,24 @@ input:hover {
 	background-color: red;
 }
 
+.portfolio {
+	margin: auto;
+	padding: 0;
+}
+
 .r1-column1 {
 	overflow: auto;
 	clear: both;
 	box-sizing: border-box;
 	float: left;
 	width: 48%;
-	margin-right: 10px;
+/*	margin-right: auto; */
 }
 
 .r1-column2 {
 	float: left;
 	width: 48%;
-	margin: 0;
+/*	margin: 0; */
 }
 
 .r2-column1 {
@@ -176,13 +182,22 @@ input:hover {
 	box-sizing: border-box;
 	float: left;
 	width: 48%;
-	margin-right: 10px;
+/*	margin-right: auto; */
 }
 
 .r2-column2 {
 	float: left;
 	width: 48%;
-	margin: 0;
+/*	margin: 0; */
+}
+
+.r3-column1 {
+	overflow: auto;
+	clear: both;
+	box-sizing: border-box;
+	float: left;
+	width: 48%;
+/*	margin-right: auto; */
 }
 
 
@@ -195,7 +210,7 @@ input:hover {
 
 #this-block-blurb1 {
 	position: absolute;
-	top: 117px; */
+	top: 117px; 
 }
 
 #this-block-image2 {
@@ -207,7 +222,7 @@ input:hover {
 
 #this-block-blurb2 {
 	position: absolute;
-	top: 117px; */
+	top: 117px; 
 }
 
 #this-block-image3 {
@@ -231,7 +246,7 @@ input:hover {
 
 #this-block-blurb4 {
 	position: absolute;
-	top: 117px; */
+	top: 117px; 
 }
 
 #this-block-image5 {
@@ -243,7 +258,7 @@ input:hover {
 
 #this-block-blurb5 {
 	position: absolute;
-	top: 117px; */
+	top: 117px; 
 }
 
 .this-blurb-inner {
