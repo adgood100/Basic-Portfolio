@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 
-		<title>GoodWorx Homework Assignment 1</title>
+		<title>GoodWorx Homework CSS Grid</title>
 
 	<!-- Linking CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/connectme1.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/connectme1.css">
 
 </head>
 <body>
 
 
 <div class="container">
-	<header>
+	<header class="box header">
 	   <p id="head0">Alicia Good</p>
 	   <p id="head1">
 		   <ul>
@@ -33,13 +33,17 @@
 	   </p>
 	</header>
 
-	<section id="main-section">
-		<section id="main-content">
+	<div class="box content">
+		
+			<div class="topleft">
 			<h2>About me</h2>
 			<hr>
+			</div>
 			
+			<div class="topleft">
 			<img class="hover-rotate" src="assets/images/good-alicia.jpg" alt="Alicia Good" id="bio-image">
-			
+			</div>
+			<div>
 			<p>"Every day is different. That's what I love about my job." </p>
 
 			<p>
@@ -52,35 +56,37 @@
 			<p>
 			Work under pressure? Yes please. It's the fuel that feeds my engine.  You better love the pressure when its your job to evangelize marketing solutions that drive traffic, create engaging experiences, and convert customers. 
 			</p>
+			</div>
 
-		</section> 
+	</div> 
 	
-		<section id="connectwithme">
-			<h3>Connect with Me</h3>
-			<hr>
-				<ul id="letsgetsocial">
-					<li>
-						<a href="https://github.com/adgood100">
-							<img src="assets/images/github.png" width="40" height="48">
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/goodalicia/">
-							<img src="assets/images/linkedin.png" width="40" height="58">
-						</a>
-					</li>
-					<li>
-						<a href="https://stackexchange.com/users/11300816/alicia?tab=top"> 
-							<img src="assets/images/stackoverflow.png" width="40" height="63">
-						</a>
-					</li>
-				</ul>
-		</section>
-		</section> 
+	<div class="box sidebar">
+		<div class="top1left">
+		<h3>Connect with Me</h3>
+		<hr>
+			<ul id="letsgetsocial">
+				<li>
+					<a href="https://github.com/adgood100">
+						<img src="assets/images/github.png" width="48" height="48">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/goodalicia/">
+						<img src="assets/images/linkedin.png" width="48" height="58">
+					</a>
+				</li>
+				<li>
+					<a href="https://stackexchange.com/users/11300816/alicia?tab=top"> 
+						<img src="assets/images/stackoverflow.png" width="48" height="63">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-	<section id="footer-info">
+	<footer class="box footer">
 		<p>Copyright &copy; GoodWorx.com</p>
-	</section>
+	</footer>
 
 </div>
 
