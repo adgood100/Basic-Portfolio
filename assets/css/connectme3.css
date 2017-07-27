@@ -19,3 +19,19 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+.wow1 img{
+    height: 164px;
+    width: 164px;
+    margin: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ 
+.wow1 img:hover {
+	height: 197px;
+	width: 264px;
+	margin-left: -50px;
+}
