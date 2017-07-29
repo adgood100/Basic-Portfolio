@@ -10,6 +10,10 @@ body {
 	line-height: 150%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
 
 } 
@@ -59,8 +63,9 @@ header {
 	top: 0px;
 	z-index: 1;
 	background-color: #4aaaa5;
-	width: 150px;
-	height: 35px;
+	width: 200px;
+	height: 71px;
+	text-align: center;
 	padding: 20px; 
 	font-size: 28px;
  	margin-top: 0;  
